@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://mvretail-dev-data-warehouse-artifacts/dvc
+    profile = dvc
+    credentialpath = /Users/bcarothers/.aws/credentials
